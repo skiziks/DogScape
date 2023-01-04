@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+body {
+	background: rgb(0, 0, 0);
+	color: #FFF;
+	margin-top: 200px;
+	background-image: url("images/arcade.png");
+	background-size: 100% 180%;
+	background-repeat: no-repeat;
+}
+#canvas_holder {
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	background: #bebfc1;
+	background-color: #808184;
+	border-color: #808184;
+}
+a {
+	font-size: xx-large;
+	text-decoration: none;
+	color: black;
+	width: auto;
+	margin-left: 45%;
+	padding: 0px 5px 0px 5px;
+}
+a:hover {
+	background-color: #bebfc1;
+	box-shadow: 10px black;
+	border-radius: 5px;
+}
