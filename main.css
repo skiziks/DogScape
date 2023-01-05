@@ -5,8 +5,8 @@ body {
 	background: rgb(0, 0, 0);
 	color: #FFF;
 	margin-top: 200px;
-	background-image: url("images/arcade.png");
-	background-size: 100% 180%;
+	background-image: url("images/background.png");
+	background-size: 100% 150%;
 	background-repeat: no-repeat;
 }
 #canvas_holder {

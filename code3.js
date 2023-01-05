@@ -193,6 +193,7 @@ window.onload = function(){
             musique_ville.play();
             musique_ville.volume = 0.5;
             musique_foret.volume = 0;
+            musique_menu.volume = 0;
             ctx.save();
             ctx.clearRect(0, 0, canvas_width, canvas_height);
             // mise en place de tous les fonds avec leur différents speedModifier
@@ -302,6 +303,8 @@ window.onload = function(){
         }
         else {
             musique_foret.play();
+            musique_menu.volume = 0;
+            musique_ville.volume = 0;
             ctx.save();
             ctx.clearRect(0, 0, canvas_width, canvas_height)
             // mise en place de tous les fonds avec leur différents speedModifier
